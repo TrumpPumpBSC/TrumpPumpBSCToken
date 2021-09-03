@@ -751,7 +751,7 @@ contract TrumpPump is Context, BEP20, Ownable {
 
     IPancakeswapV2Router02 public pancakeswapV2Router02;
     address public immutable pancakeswapV2Pair;
-    address public marketingWallet = 0x31ede0549d12d296C6139167d8D4A45E508C6aA8;
+    address public marketingWallet = 0x514600efde399EcdfbD1028C6BEF0F616EBa9dCC;
     address public burnAdd = 0x000000000000000000000000000000000000dEaD;
 
     bool private _swapping;
